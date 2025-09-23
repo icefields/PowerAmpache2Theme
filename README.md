@@ -50,4 +50,5 @@ implementation(libs.compose.material3)
 ```
 
 <br>`manifest.xml`, add in `<application>` <br>
+
 `android:theme="@style/Theme.PowerAmpache2"`
