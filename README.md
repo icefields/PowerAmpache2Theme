@@ -46,7 +46,7 @@ implementation(libs.compose.material3)
 ```
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.PowerAmpache2" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.PowerAmpache2" parent="Theme.Material3.DayNight.NoActionBar" />
 ```
 
 <br>`manifest.xml`, add in `<application>` <br>
