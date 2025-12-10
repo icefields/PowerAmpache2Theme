@@ -35,3 +35,20 @@ PowerAmpache2Theme(
     MainScreen()
 }
 ```
+<br>
+Material3 dependency and theme declaration might also be needed on the presentation layer of your app:
+
+```
+implementation(libs.compose.material3)
+```
+<br>`themes.xml` : <br>
+
+```
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PowerAmpache2" parent="Theme.Material3.DayNight.NoActionBar" />
+```
+
+<br>`manifest.xml`, add in `<application>` <br>
+
+`android:theme="@style/Theme.PowerAmpache2"`
